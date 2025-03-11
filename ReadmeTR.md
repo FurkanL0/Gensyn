@@ -210,9 +210,7 @@ docker compose up --build -d && docker compose logs -f
 ![image](https://github.com/user-attachments/assets/75216a4d-587d-4b21-a99d-51501b92ad07)
  
 
-![Screenshot_654](https://github.com/user-attachments/assets/56243405-85ca-41ae-8591-2e61631835da)
-
-* **Loglardan Çıkma**: Press `Ctrl+C`
+* **Loglardan Çıkma**: `Ctrl+C`
 
 * -d olduğu için arkada çalışmaya devam edecek.
 

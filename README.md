@@ -196,6 +196,10 @@ Start the services with:
 ```bash
 docker compose up --build -d && docker compose logs -f
 ```
+
+![image](https://github.com/user-attachments/assets/ac448740-305a-432d-96bd-7b95a834378e)
+
+
 * **Note**: The first run may take time due to image downloads. Look for this log to confirm your node joined the swarm
 
 ![Screenshot_654](https://github.com/user-attachments/assets/56243405-85ca-41ae-8591-2e61631835da)

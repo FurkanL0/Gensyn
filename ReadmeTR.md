@@ -196,7 +196,7 @@ services:
 
 ---
 
-## Run RL Swarm Node + Web UI Dashboard
+## RL Swarm Node + Web UI Dashboard Başlatma / Çalıştırma 
 Start the services with:
 ```bash
 docker compose up --build -d && docker compose logs -f
@@ -213,18 +213,18 @@ docker compose up --build -d && docker compose logs -f
 
 ---
 
-## Check logs
-* **RL Swarm node:**
+## Log Kontrol
+* **RL Swarm node Log Kontrol:**
 ```bash
 docker-compose logs -f swarm_node
 ```
 
-* **Web UI:**
+* **Web UI Log Kontrolü:**
 ```bash
 docker-compose logs -f fastapi
 ```
 
-* **Telemetry Collector:**
+* **Telemetry Collector Log Kontrolü:**
 ```bash
 docker-compose logs -f otel-collector
 ```
@@ -233,7 +233,7 @@ docker-compose logs -f otel-collector
 
 ---
 
-## Access the Web UI Dashboard
+## Web UI Dashboard Erişim
 * VPS: `http://<your-vps-ip>:8080/`
 * Local PC: `http://localhost:8080` or `http://0.0.0.0:8080`
 

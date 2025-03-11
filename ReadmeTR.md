@@ -197,7 +197,7 @@ services:
 ---
 
 ## RL Swarm Node + Web UI Dashboard Başlatma / Çalıştırma 
-Start the services with:
+Star'ı Verelim:
 ```bash
 docker compose up --build -d && docker compose logs -f
 ```
@@ -209,7 +209,9 @@ docker compose up --build -d && docker compose logs -f
 
 ![Screenshot_654](https://github.com/user-attachments/assets/56243405-85ca-41ae-8591-2e61631835da)
 
-* **Exit Logs**: Press `Ctrl+C`
+* **Loglardan Çıkma**: Press `Ctrl+C`
+
+* -d olduğu için arkada çalışmaya devam edecek.
 
 ---
 

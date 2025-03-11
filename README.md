@@ -75,6 +75,9 @@ docker run --gpus all --pull=always -it --rm europe-docker.pkg.dev/gensyn-public
 docker run --pull=always -it --rm europe-docker.pkg.dev/gensyn-public-b7d9/public/rl-swarm:v0.0.1 ./run_hivemind_docker.sh
 ```
 
+![image](https://github.com/user-attachments/assets/68601afb-5171-40cf-803e-0a3e8bfc32a6)
+
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=FurkanL0&style=flat-square&color=red&label=Profile+Views+/+Repo+Views+" alt="Repo / Profile Views" />
 </p>

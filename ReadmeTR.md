@@ -16,6 +16,11 @@
     - H100
 -  **Note**: You can run the node without a GPU using CPU-only mode (details in the docker-compose.yaml section).
 
+- Netcup ARM64 G11 Kullanım : 
+
+![image](https://github.com/user-attachments/assets/c191972d-39b0-413d-88a9-f3e6d125b792)
+
+
 | Server Provider        | Link              | Features |
 |------------------|----------------------------|----------------------------|
 | **NetCup**          | [Link](https://www.netcup.com/en/?ref=261820) | Cheap / Paypal |

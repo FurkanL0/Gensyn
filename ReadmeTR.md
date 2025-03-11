@@ -64,7 +64,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # Test Docker
 sudo docker run hello-world
 ```
-* Tip: To run Docker without sudo, add your user to the Docker group:
+* Docker'a Kullanıcıları Ekleme : 
 ```bash
 sudo usermod -aG docker $USER
 ```

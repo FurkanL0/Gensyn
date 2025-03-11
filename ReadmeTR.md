@@ -86,11 +86,11 @@ cd rl-swarm
 
 ## `docker-compose.yaml` Dosyası Oluşturuyoruz.
 This file defines the services: the RL Swarm node, telemetry collector, and web UI.
-1. Rename the old file:
+1. Eski Dosyaya  İsim Veriyoruz:
 ```bash
 mv docker-compose.yaml docker-compose.yaml.old
 ```
-2. Create the new file:
+2. Yeni Dosya Oluşturuyoruz:
 ```bash
 nano docker-compose.yaml
 ```

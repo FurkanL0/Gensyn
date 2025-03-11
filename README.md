@@ -200,9 +200,10 @@ docker compose up --build -d && docker compose logs -f
 ![image](https://github.com/user-attachments/assets/ac448740-305a-432d-96bd-7b95a834378e)
 
 
-* **Note**: The first run may take time due to image downloads. Look for this log to confirm your node joined the swarm
 
-![Screenshot_654](https://github.com/user-attachments/assets/56243405-85ca-41ae-8591-2e61631835da)
+* **Note**: It will take a while because it is the first download - you should see it in the logs, if you are using Termius you can search from the left.
+
+![image](https://github.com/user-attachments/assets/75216a4d-587d-4b21-a99d-51501b92ad07)
 
 * **Exit Logs**: Press `Ctrl+C`
 

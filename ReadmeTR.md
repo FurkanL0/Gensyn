@@ -85,7 +85,7 @@ cd rl-swarm
 ---
 
 ## `docker-compose.yaml` Dosyası Oluşturuyoruz.
-This file defines the services: the RL Swarm node, telemetry collector, and web UI.
+Bu dosya hizmetleri tanımlar: RL Swarm düğümü, telemetri toplayıcısı ve web kullanıcı arayüzü.
 1. Eski Dosyaya  İsim Veriyoruz:
 ```bash
 mv docker-compose.yaml docker-compose.yaml.old
@@ -140,7 +140,7 @@ services:
       interval: 30s
       retries: 3
 ```
-* **GPU/CPU Note**: If you don't have an NVIDIA GPU or the NVIDIA Container Runtime, remove the `runtime: nvidia` line under `swarm_node` to run on **CPU**.
+* **GPU/CPU Notu**: NVIDIA GPU'nuz veya NVIDIA Container Runtime'ınız yoksa **CPU** üzerinde çalıştırmak için `swarm_node` altındaki `runtime: nvidia` satırını kaldırın.
 
 - CPU : 
 
